@@ -1,0 +1,344 @@
+@media screen and (min-width:390px) {
+
+    /* home */
+
+    .home .button div.watch a {
+        font-size: 15px;
+    }
+
+    div.home .button {
+        gap: 5%;
+    }
+
+    div.home .button .watch .icon i {
+        padding: 10px;
+    }
+
+    /* home */
+}
+
+@media screen and (min-width:640px) and (max-width:1024px) {
+
+    /* home */
+
+    div.home div.container {
+        width: 90%;
+    }
+
+    div.home div.container div.shake {
+        margin-block: 20px;
+    }
+
+    div.home div.container div.content {
+        padding: 20px;
+        width: 75%;
+    }
+
+    .home div.button {
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .home div.button button {
+        margin-block: 15px;
+    }
+
+    /* home */
+
+}
+
+@media screen and (min-width:768px) {
+
+    /* home */
+    .container div.btns button.border {
+        border-radius: 0 25px 25px 30px;
+    }
+
+    div.home .button .watch .icon i {
+        padding: 11px;
+    }
+
+    div.home div.button {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-right: 20px;
+        align-items: center;
+    }
+
+    div.home button {
+        background-color: #ce1212;
+        color: #ffffff;
+        height: 5vh;
+        padding: 0px 25px;
+        font-size: 14px;
+        border: none;
+        margin-right: 20px;
+        border-radius: 0px 30px 30px 30px;
+    }
+
+    /* home */
+
+    /* chefs */
+    .cont-cards div.card {
+        width: calc(calc(100% - (30px)) / 2);
+    }
+
+    div.pic::after {
+        top: 78%;
+    }
+
+    /* chefs */
+
+
+    /* gellary */
+
+    .gellary div.container {
+        align-items: flex-start;
+    }
+
+    .gellary .container div.heading {
+        margin: auto;
+    }
+
+    .gellary div.container .cont {
+        height: 166vh;
+    }
+
+    .container div.cont {
+        width: calc(calc(100% - (20px)) / 2);
+    }
+
+    div.one {
+        order: 1;
+    }
+
+    div.two {
+        order: 2;
+    }
+
+    div.three {
+        order: 3;
+    }
+
+    div.four {
+        order: 4;
+    }
+
+    div.fife {
+        order: 5;
+    }
+
+    div.six {
+        order: 6;
+    }
+
+    div.seven {
+        order: 7;
+    }
+
+    /* gellary */
+
+    /* contact */
+    .contact .detalis div.detail {
+        width: 49%;
+    }
+
+    /* contact */
+
+    /* footer */
+    div.height{
+        flex-direction: row;
+    }
+    .footer div.container .part-1{
+        width: 45%;
+        width: calc(calc(100% - 20px) / 2);
+        order: 1;
+    }
+    .footer div.container .part-3{
+        width:calc(calc(100% - 20px) / 2) ;
+        order: 1;
+    }
+    .footer div.container .part-2{
+        width: 100%;
+        order: 2;
+    }
+    /* footer */
+
+}
+
+@media screen and (min-width: 800px) {
+     /* chefs */
+
+    div.pic::after {
+        top: 80%;
+    }
+
+    /* chefs */
+
+    /* gallary */
+    .gellary div.container .cont {
+        height: 237vh;
+    }
+
+    /* gallary */
+}
+
+@media screen and (min-width:1024px) {
+
+    /* navbar */
+    div.nav {
+        justify-content: space-around;
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .nav div.list-bar {
+        position: relative;
+        width: 45%;
+        padding-block: 20px;
+    }
+
+    .list-bar .list .ul ul {
+        display: flex;
+        flex-direction: row;
+        height: 0;
+        translate: 0;
+        position: absolute;
+        left: 0;
+    }
+
+    /* navbar */
+    /* home */
+    .home {
+        height: 100vh;
+    }
+
+    .home div.container {
+        width: 80%;
+        padding-block: 20px;
+        margin-top: 20px;
+        flex-direction: row-reverse;
+    }
+
+    .home div.container .content,
+    .home div.container div.shake {
+        padding-top: 25px;
+        margin-top: 25px;
+        text-align: start;
+        width: 40%;
+    }
+
+
+    /* home */
+
+    /* chefs */
+
+    div.pic::after {
+        top: 80%;
+    }
+
+    /* chefs */
+
+    /* gellary */
+    .gellary .container div.heading p {
+        font-size: 50px;
+    }
+
+    .gellary div.container .cont {
+        height: 120vh;
+    }
+
+    .container div.cont {
+        width: calc(calc(100% - (20px)*2) / 3);
+    }
+
+    .container div.cont div.imgs {
+        order: unset;
+    }
+
+
+    /* gellary */
+
+    /* chefs */
+    .cont-cards div.card {
+        width: calc(calc(100% - (30px)*2) / 3);
+    }
+
+    /* chefs */
+
+    /* contact */
+    .contact .inputs {
+        padding-inline: 15px;
+        display: flex;
+    }
+
+    .contact .inputs input {
+        width: 49%;
+    }
+
+    /* contact */
+    div.height {
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+
+    .footer div.container .part-1 {
+        width: calc(calc(50% - 40px) / 2);
+        order: 1;
+    }
+
+    .footer div.container .part-2 {
+        width: 50%;
+        order: 2;
+    }
+
+    .footer div.container .part-3 {
+        width: calc(calc(50% - 40px) / 2);
+        order: 3;
+    }
+}
+
+@media screen and (min-width:1280px) {
+
+    /* jome */
+    div.home .button .watch .icon i {
+        padding: 11px;
+    }
+
+    .gellary div.container .cont {
+        height: 125vh;
+    }
+
+    /* home */
+
+    /* chefs */
+    div.pic::after {
+        top: 83%;
+    }
+
+    /* chefs */
+
+    div.height{
+        flex-direction: row;
+    }
+    .part-1{
+        width: 20%;
+    }
+    .part-2{
+        width: 60%;
+    }
+    .part-3{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1523px) {
+
+    .gellary div.container .cont {
+        height: 155vh;
+    }
+
+}
